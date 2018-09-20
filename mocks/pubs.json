@@ -1,0 +1,77 @@
+[
+{
+    "name": "Arawak",
+    "owner": {
+        "firstName": "Nicolas",
+        "lastName": "Hodicq",
+        "mail": "nhodicq@bewizyu.com"
+    },
+    "openDays": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    ],
+    "openHours": {
+        "start": 10,
+        "end": 1
+    },
+    "beers": [
+        {
+            "type": "Blonde",
+            "name": "Triple Karmeliet"
+        }
+    ]
+},
+{
+    "name": "JavaScript Pub !",
+    "owner": {
+        "firstName": "Antony",
+        "lastName": "Correoso",
+        "mail": "antony.correoso@mail.fr"
+    },
+    "openDays": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+    ],
+    "openHours": {
+        "start": 10,
+        "end": 1
+    },
+    "beers": [
+        {
+            "type": "Blonde",
+            "name": "Triple Karmeliet"
+        },
+        {
+            "type": "Blanche",
+            "name": "Grim"
+        }
+    ]
+},
+{
+    "name": "Just Monday Opened Pub",
+    "owner": {
+        "firstName": "Nicolas",
+        "lastName": "Hodicq",
+        "mail": "nhodicq@bewizyu.com"
+    },
+    "openDays": [
+        "Monday"
+    ],
+    "openHours": {
+        "start": 10,
+        "end": 1
+    },
+    "beers": [
+        {
+            "type": "Blonde",
+            "name": "Triple Karmeliet"
+        }
+    ]
+}
+]
