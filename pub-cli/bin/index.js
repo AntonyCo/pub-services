@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-var program = require('commander');
+const program = require('commander');
+const {findAll, findAllOpened} = require('../src/main');
 
 program
 .version('1.0.0')
@@ -9,9 +10,9 @@ program
 
 if (program.list) {
     console.log('-------------------- List all pubs --------------------');
-    console.log(require('../src/main').findAll());
+    console.log(findAll());
     
 }if(program.opened){
     console.log('-------------------- List all opened pubs --------------------');
-    console.log(require('../src/main').findAllOpened());
+    console.log(findAllOpened());
 }

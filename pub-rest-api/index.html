@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <H1>OPENED PUBS !!!</H1>
+    </body>
+    <script>
+        var value = fetch('http://localhost:3000/pubs/opened')
+        .then(function(response) {
+            console.log(response);
+            return response.json();
+        })
+        .then(function(data) {
+            var objectURL = data;
+            for (var i = 0; i < data.length; i++) {
+                console.log(data[i].name);
+            }
+        });
+    </script>
+</html>
