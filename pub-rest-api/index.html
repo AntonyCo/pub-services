@@ -9,12 +9,24 @@
     <script>
         var value = fetch('http://localhost:3000/pubs/opened')
         .then(function(response) {
-            console.log(response);
             return response.json();
         })
         .then(function(data) {
-            var objectURL = data;
-            for (var i = 0; i < data.length; i++) {
+            for (let i = 0; i < data.length; i++) {
+                const pubDir = document.createElement('div');
+                const beerDir = document.createElement('div');
+                const ulBeer = document.createElement('ul');
+                const h2 = document.createElement('h2');
+
+                h2.append(data[i].name);
+                console.log(data[i].beers[0].name);
+                data[i].beers.array.forEach(element => {
+                    console.log(element.name);
+                });
+                pubDir.append(h2);
+                pubDir.append(beerDir);
+
+                document.body.appendChild(h2);
                 console.log(data[i].name);
             }
         });
