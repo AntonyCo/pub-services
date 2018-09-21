@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "start:list": "node bin/index.js -l"
   },
   "keywords": [],
   "author": "",
